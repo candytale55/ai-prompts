@@ -1,2 +1,4 @@
 # ai-prompt-experimentation
-⚡ A growing collection of prompt experiments that are starting to work. Real tests, real learning, zero fluff. Consider this my ongoing prompt engineering journey.
+⚡ My growing collection of prompts that I use everyday. I share them because they work for me.
+
+I know, I need to improve this README. Will do soon. 
