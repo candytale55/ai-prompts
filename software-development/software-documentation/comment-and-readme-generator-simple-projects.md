@@ -29,10 +29,12 @@ I'm going to give you the HTML and CSS files of a project. I want you to add bri
 - Indicate functionality when it's essential for understanding the project structure
 - Use a consistent commenting style throughout
 - Focus on making navigation easier rather than explaining obvious code
+- If the HTML file is missing any standard declarations or meta tags (DOCTYPE, lang="en", charset="UTF-8", viewport), please add them. 
 
 The goal is to make the codebase easier to navigate and understand at a glance.
-
-[Include both files here. If your JavaScript (or similar) is tested/safe you can send it too. Untested code goes in a following prompt]
+```
+```markdown
+   [Include both files here. If your JavaScript (or similar) is tested/safe you can send it too. Untested code goes in a following prompt]
 ```
 
 ### Prompt 2 - JavaScript Comments:
@@ -50,8 +52,9 @@ Now I need you to comment the JavaScript file with two specific requirements:
    - Any other external resources
 
 Add safe placeholder functions where needed so the app runs without crashing during development.
-
-[Include JS file here]
+```
+```markdown
+   [Include JS file]
 ```
 
 ### Prompt 3 - README:
