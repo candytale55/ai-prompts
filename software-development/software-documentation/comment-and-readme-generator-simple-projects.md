@@ -29,7 +29,8 @@ I'm going to give you the HTML and CSS files of a project. I want you to add bri
 - Indicate functionality when it's essential for understanding the project structure
 - Use a consistent commenting style throughout
 - Focus on making navigation easier rather than explaining obvious code
-- If the HTML file is missing any standard declarations or meta tags (DOCTYPE, lang="en", charset="UTF-8", viewport), please add them. 
+- If the HTML file is missing any standard declarations or meta tags (DOCTYPE, lang="en", charset="UTF-8", viewport), please add them.
+- Add accessibility improvements through attributes only - no new HTML elements or structural changes, just enhance existing tags with aria-labels, alt text, and similar attributes. 
 
 The goal is to make the codebase easier to navigate and understand at a glance.
 ```
@@ -72,4 +73,5 @@ Please create a concise README.md for this project that includes:
 1. **Add example snippets** if you want a very specific commenting style
 2. **Specify priority levels** if some sections are more critical than others
 3. **Mention target audience** (e.g., "for junior developers" vs "for experienced team")
+
 
