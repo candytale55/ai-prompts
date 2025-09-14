@@ -18,10 +18,9 @@ Tested with:
 **Tokens**: 63    Created: **2025-06-11**
 
 ```md 
-Please provide a concise **two-paragraph summary** of this paper, highlighting its _key arguments_ and _findings_.
+    Please provide a concise **two-paragraph summary** of this paper, highlighting its _key arguments_ and _findings_.
 
-Additionally, extract a **bullet-point list** of important considerations, risks, or best practices mentioned in the paper that should be kept in mind when working with or developing artificial intelligence systems.
-
+    Additionally, extract a **bullet-point list** of important considerations, risks, or best practices mentioned in the paper that should be kept in mind when working with or developing artificial intelligence systems.
 ```
 #### ELI follow-up
 
@@ -44,7 +43,7 @@ Add a Paper in PDF
  **Tokens**: 44
 
 ```md
-Summarize this paper in two focused paragraphs, covering the main objectives, methods, and conclusions. Then, list the key takeaways, recommendations, or critical concerns that practitioners or researchers should consider when working with AI.
+    Summarize this paper in two focused paragraphs, covering the main objectives, methods, and conclusions. Then, list the key takeaways, recommendations, or critical concerns that practitioners or researchers should consider when working with AI.
 ```
 
 Then, after the response:
@@ -60,6 +59,7 @@ Now please explain it like I'm 15
 - Tested on Claude
 
 ### Prompt
+Created: **June 2025**
 
 1. Change the information between [ for your paper ]. 
 
@@ -67,7 +67,7 @@ Now please explain it like I'm 15
 
 
          
-Created: **June 2025**
+
 **Tokens**: 225
 
 ```md
