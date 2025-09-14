@@ -44,7 +44,9 @@ Add a Paper in PDF
 
 ```md
 
-Summarize this paper in **two focused paragraphs**, covering the main objectives, methods, and conclusions. Then, list the **key takeaways, recommendations, or critical concerns** that practitioners or researchers should consider when working with AI.
+Summarize this paper in **two focused paragraphs**, covering the main objectives, methods, and conclusions. 
+
+Then, list the **key takeaways, recommendations, or critical concerns** that practitioners or researchers should consider when working with AI.
 
 ```
 
