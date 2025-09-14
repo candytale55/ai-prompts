@@ -5,22 +5,25 @@ Tokens calculated with [OpenAi's Tokenizer](https://platform.openai.com/tokenize
 
 ## SHORT VERSION A
 
-Tested with: 
+Created: **2025-06-11**
 
-- ChatGPT
-- Perplexity
+> Tested with: 
+> - ChatGPT
+> - Perplexity
 
 ### Prompt
+
+
 
 1. Adapt the prompt to your needs after ... _kept in mind when_
 2. Provide the Technical Paper in PDF
 
-**Tokens**: 63    Created: **2025-06-11**
+**Tokens**: 63    
 
 ```md 
-    Please provide a concise **two-paragraph summary** of this paper, highlighting its _key arguments_ and _findings_.
+Please provide a concise **two-paragraph summary** of this paper, highlighting its _key arguments_ and _findings_.
 
-    Additionally, extract a **bullet-point list** of important considerations, risks, or best practices mentioned in the paper that should be kept in mind when working with or developing artificial intelligence systems.
+Additionally, extract a **bullet-point list** of important considerations, risks, or best practices mentioned in the paper that should be kept in mind when working with or developing artificial intelligence systems.
 ```
 #### ELI follow-up
 
@@ -45,7 +48,7 @@ Add a Paper in PDF
 ```md
 
 Summarize this paper in **two focused paragraphs**, covering the main objectives, methods, and conclusions. 
-    
+
 Then, list the **key takeaways, recommendations, or critical concerns** that practitioners or researchers should consider when working with AI.
 
 ```
