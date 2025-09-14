@@ -1,8 +1,19 @@
 # Summarize this newsletter.
 
+## Super Short Prompt
+
+Created: **2025-06**
+
+- Tested with Gemini
+
+**Tokens**: 36  
+
+```md
+Summarize this document in two concise paragraphs covering the main objectives, methods, and conclusions. Then, list actions, recommendations, or critical concerns that users should implement when working.
+```
 
 
-## Tech Newsletter
+## Longer Prompt - Created for Tech Newsletter
 
 Created: **2025-06**
 
@@ -12,8 +23,6 @@ Tested with:
 When I ask it to include the date, it messes it up.  
 
 ### Prompt
-
-
 
 ```md
 Add the newsletter date on top and ...

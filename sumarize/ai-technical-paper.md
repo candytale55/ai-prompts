@@ -1,7 +1,5 @@
 # Summarize this AI paper.
 
-Tokens calculated with [OpenAi's Tokenizer](https://platform.openai.com/tokenizer) (GPT-3.5 | GPT-4)
-
 
 ## SHORT VERSION A
 
