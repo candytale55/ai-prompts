@@ -1,4 +1,4 @@
-# Code comments and README Generator for Simple Projects
+# Comment Code and generate README for Simple Projects
 
 _Created on_ **2025-08-28**
 
@@ -73,5 +73,6 @@ Please create a concise README.md for this project that includes:
 1. **Add example snippets** if you want a very specific commenting style
 2. **Specify priority levels** if some sections are more critical than others
 3. **Mention target audience** (e.g., "for junior developers" vs "for experienced team")
+
 
 
