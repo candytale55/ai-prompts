@@ -121,7 +121,3 @@ Add all possible values for [property] as commented-out rules in the CSS.
 Goal: user can uncomment to experiment.  
 Input: [CSS snippet].  
 ```
-
----
-
-💡 **Tip:** You can mix and match these prompts. For example, paste code + ask for inline comments + accessibility tweaks in one go.
