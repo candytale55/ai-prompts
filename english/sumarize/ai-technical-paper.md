@@ -1,5 +1,49 @@
 # Summarize this AI paper.
 
+## One-liner meta-prompt
+
+**minimal, reusable meta-prompt** you can prepend to almost any summarization or extraction request to enforce accuracy and traceability:
+
+* Place this at the start of your prompt (like a **system instruction**) and then add your specific task (summary, bullet points, etc.).
+
+```md
+When summarizing or extracting information, only use content explicitly present in the source text. Provide supporting references (page/section/sentence) for each claim, and explicitly state *‘not discussed in the text’* if the information is missing.
+```
+
+* Then:
+
+```md
+Write a concise summary in exactly two paragraphs, then extract a bulleted list of considerations, risks, and best practices regarding AI systems from the document below.
+```
+
+
+
+## Improved Prompt
+
+### Updated: 2025.09.28
+
+```md
+Read the paper provided below.
+
+1. Write a **concise summary in exactly two paragraphs**, focusing on the paper’s main arguments and findings.
+2. Then, create a **bulleted list** of the most important *considerations, risks, and best practices* mentioned in the paper regarding [insert topic, e.g., artificial intelligence systems].
+    * Ensure the bulleted list is distinct from the summary and highlights actionable or cautionary points.
+    * Write clearly for an audience of [insert intended audience, e.g., technical practitioners / policymakers / general readers].
+```
+
+#### Specific:
+
+```md
+Read the paper provided below.
+
+1. Write a **concise summary in exactly two paragraphs**, focusing on the paper’s main arguments and findings.
+2. Then, create a **bulleted list** of the most important *considerations, risks, and best practices* mentioned in the paper regarding artificial intelligence systems.
+    * Ensure the bulleted list is distinct from the summary and highlights actionable or cautionary points.
+    * Write clearly for an audience of practitioners and general readers.
+```
+
+
+
 
 ## SHORT VERSION A
 
@@ -11,12 +55,10 @@ Created: **2025-06-11**
 
 ### Prompt
 
-
-
 1. Adapt the prompt to your needs after ... _kept in mind when_
 2. Provide the Technical Paper in PDF
 
-**Tokens**: 63    
+
 
 ```md 
 Please provide a concise **two-paragraph summary** of this paper, highlighting its _key arguments_ and _findings_.
@@ -72,9 +114,6 @@ Created: **June 2025**
 
 
          
-
-**Tokens**: 225
-
 ```md
 **Context:**
 
