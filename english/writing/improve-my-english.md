@@ -18,19 +18,29 @@ I'm studying English at C1 level. Please act as a **writing coach and English pr
    Organize issues into separate sections with a table for each category:  
 
    ### Grammar  
-   | Original | Correction | Why |  
+   | Original | Correction | Why |
+   |----------|------------|-----|
+   |          |            |     | 
 
    ### Spelling  
-   | Original | Correction | Why |  
+   | Original | Correction | Why | 
+   |----------|------------|-----|
+   |          |            |     | 
 
    ### Style (word choice, tone, clarity)  
    | Original | Correction | Why |  
+   |----------|------------|-----|
+   |          |            |     |
 
    ### Punctuation  
    | Original | Correction | Why |  
+   |----------|------------|-----|
+   |          |            |     |
 
    ### Other (if needed)  
    | Original | Correction | Why |  
+   |----------|------------|-----|
+   |          |            |     |
 
 3. **Detailed Explanation**  
    - Summarize the most important fixes.  
@@ -55,24 +65,29 @@ MPs are **supposed** to be lazy, but **they** are showing too much **interest in
 ---
 
 ### Grammar  
-| Original | Correction | Why |  
+| Original | Correction | Why |
+|----------|------------|-----|  
 | "let me a little anxious" | **left me a little anxious** | Wrong tense; "left" indicates cause/effect. |  
 | "the are showing" | **they are showing** | Subject–verb agreement mistake. |  
 
 ### Spelling  
-| Original | Correction | Why |  
+| Original | Correction | Why |
+|----------|------------|-----|  
 | "suppossed" | **supposed** | Common typo with double "s". |  
 
 ### Style  
-| Original | Correction | Why |  
+| Original | Correction | Why |
+|----------|------------|-----|  
 | "to watch the Scouts businesses" | **interest in the Scouts' business** | More natural phrasing. |  
 
 ### Punctuation  
-| Original | Correction | Why |  
+| Original | Correction | Why |
+|----------|------------|-----|  
 | "Scouts businesses" | **Scouts' business** | Needed possessive apostrophe. |  
 
 ### Other  
-| Original | Correction | Why |  
+| Original | Correction | Why |
+|----------|------------|-----|  
 | "outloud" | **out loud** | Should be two words. |  
 
 ---
