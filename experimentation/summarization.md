@@ -38,12 +38,16 @@ Following examples in article [Text Summarization](https://learnprompting.org/do
 
 ## Simple Summary
 
+<!-- prompt:start -->
+
+**Prompt**
 ```md
 Give me an act-by-act summary of Hamlet, keeping it simple and clear
 ```
-**Result**
 
-<result>
+<!-- prompt:end -->
+
+**Result**
 
 ### **Act 1**
 
@@ -84,62 +88,73 @@ Give me an act-by-act summary of Hamlet, keeping it simple and clear
 * Claudius arranges a duel between Hamlet and Laertes, but both plan treachery.
 * In the duel, Hamlet, Laertes, Gertrude, and Claudius all die.
 * Fortinbras, a prince from Norway, arrives and takes control of Denmark.
-</result>
 
 ### Domain-Specific Interpretations
 
 ### Example 1 : Millenial
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Give me a 100-word summary of Hamlet with Millenial expressions
 ```
+<!-- prompt:end -->
+
 
 **Result**
 
-<pre>
 So, Prince Hamlet is vibing in Denmark when his dad gets offed, and his shady uncle Claudius snatches both the throne *and* Hamlet’s mom—big yikes. Ghost Dad slides in like, “Bro, I was murdered, avenge me.” Hamlet spirals into an existential crisis, ghosting everyone, dropping cryptic hot takes like “to be or not to be.” He stages a play to clap back at Claudius, chaos ensues, and almost the entire cast rage-quits life via poison or stabbings. Endgame: Hamlet dies too, but not before exposing the sus uncle. Denmark: wrecked. Moral? Trust issues + indecision = messy vibes.
-</pre>
 
 ### Example 2: Gen Z
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Give me a 100-word summary of Hamlet in Gen Z slang
 ```
+<!-- prompt:end -->
 
-**Result:**
 
-<pre>
+**Result**
+
 Hamlet’s chillin’ when his dad gets unalived, and sus Uncle Claudius steals both the crown *and* his mom—major ick. Ghost Dad pulls up like, “Receipts: Claudius did it. Run me my revenge.” Hamlet’s brain goes ✨mentally ill, but make it aesthetic✨—dropping “to be or not to be” like it’s a sad-girl TikTok. He stages a play as a vibe check, Claudius flops, and then it’s straight chaos: stabbings, poison, everyone rage-quitting existence. Hamlet finally cancels Claudius but dies too. Denmark = dumpster fire. TL;DR: indecision + toxic family = no cap tragedy.
-</pre>
 
 ### Example 3: Gen Alpha version extra short and meme-y
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Give me a 100-word summary of Hamlet in a Gen Alpha version extra short and meme-y
 ```
+<!-- prompt:end -->
 
-**Result:**
 
-<pre>
-Hamlet: “Dad’s ghost says Uncle’s sus.”
-Uncle: *steals mom + throne* 🤡
-Hamlet: “To be or not to be 😢👉👈”
-*Posts cringe play to expose Uncle.*
-Uncle: 😳
-Everyone: *fights* ⚔️💀
-Finale = full squad wipe.
+
+**Result**
+
+Hamlet: “Dad’s ghost says Uncle’s sus.”  
+Uncle: *steals mom + throne* 🤡  
+Hamlet: “To be or not to be 😢👉👈”  
+*Posts cringe play to expose Uncle.*  
+Uncle: 😳  
+Everyone: *fights* ⚔️💀  
+Finale = full squad wipe.  
 
 Moral: family drama + laggy decision-making = GG no re.
-</pre>
 
 ## Summarize this text: [PASTE TEXT HERE]
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize this text: [PASTE TEXT HERE]
 ```
+<!-- prompt:end -->
 
 ### Example 1
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize this text: 
 
@@ -152,6 +167,7 @@ Since the development of the Semantic Web, knowledge graphs have often been asso
 
 Recent developments in data science and machine learning, particularly in graph neural networks and representation learning and also in machine learning, have broadened the scope of knowledge graphs beyond their traditional use in search engines and recommender systems. They are increasingly used in scientific research, with notable applications in fields such as genomics, proteomics, and systems biology.[5]
 ```
+<!-- prompt:end -->
 _From [Wikipedia](https://en.wikipedia.org/wiki/Knowledge_graph), the free encyclopedia_, consulted on 2025.09.30.
 
 **Result:**
@@ -227,14 +243,17 @@ _From [Wikipedia](https://en.wikipedia.org/wiki/Knowledge_graph), the free encyc
 
 #### Technical vs. simplified explanations
 
-#### Technical:
+### Technical:
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize this text using technical terms 
 ```
 ```md
 [Text to summarize]
 ```
+<!-- prompt:end -->
 
 **Result**
 
@@ -255,18 +274,21 @@ A major challenge is **entity alignment**, i.e., resolving correspondences of en
 
 Overall, KGs provide a flexible, ontology-driven framework for representing, reasoning, and integrating knowledge across diverse application domains.
 ```
-#### Simplified:
 
+### Simplified:
+
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize this text using simplified terms 
 ```
 ```md
 [Text to summarize]
 ```
+<!-- prompt:end -->
 
 **Result:**
 
-```md
 **What is a knowledge graph?**
 A knowledge graph is a way of storing and organizing information in the form of a graph, where entities (things like people, places, events, or ideas) are shown as nodes, and their relationships are shown as links between them. This helps both humans and machines understand and reason about data.
 
@@ -315,22 +337,25 @@ Different graphs may describe the same real-world thing in different ways. Match
 
 👉 **In short:**
 A knowledge graph is a network-like digital structure that connects facts and concepts through relationships. It started as a research idea decades ago, became widely known after Google’s Knowledge Graph, and is now used in search, AI, science, and business.
-```
 
-#### Age-appropriate content (ELI)
+
+### Age-appropriate content (ELI)
 
 ELI = Explain Like I'm ...
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize this text for me like I'm 5 years old:
 ```
 ```md
 [Text to summarize]
 ```
+<!-- prompt:end -->
 
 **Result:**
 
-```md
+
 A **knowledge graph** is like a giant **map of facts**.
 
 * The dots on the map are things (like people, places, or ideas).
@@ -343,20 +368,22 @@ People started making these fact-maps a long time ago, and they’ve grown bigge
 Sometimes, two maps talk about the same thing in different ways. Figuring out that it’s really the same thing is called **entity alignment**—kind of like matching puzzle pieces.
 
 So, a knowledge graph is basically a **smart web of facts and connections** that helps humans and computers understand the world better.
-```
+
 
 #### Domain-specific interpretations
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize this text using 60s hippie talk:
-``` 
+```
 ```md
 [Text to summarize]
 ```
+<!-- prompt:end -->
 
 **Results:**
 
-```md
 Alright, dig this, man:
 
 So, a **knowledge graph** is like this far-out cosmic web where all the ideas, people, places, and vibes are strung together, ya know? It’s not just dusty facts, it’s the *connections* between ‘em, the grooves between the notes. Back in the day, cats started spinning this trip in the ‘70s, and it really caught fire when the internet got hip to the “semantic web” scene. Pretty soon, the big cats like Google, Bing, and Siri were surfing these graphs to make sense of the universe for folks.
@@ -369,20 +396,22 @@ The tricky part? Aligning the vibes between different graphs so they’re talkin
 
 It’s all about tuning into the connections, man—because knowledge isn’t just facts, it’s the *cosmic harmony* between them. ✌️🌻
 
-```
 
-See the Hamlet examples above too. 
+
+> See the Hamlet examples above too. 
 
 ### Output format
 
 #### Executive Summary:
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize Romeo and Juliet as an Executive Summary.
 ```
+<!-- prompt:end -->
 **Result**
 
-```md
 ### Executive Summary
 
 *Romeo and Juliet*, written by William Shakespeare, is a tragic drama that explores the destructive impact of generational conflict, impulsive choices, and miscommunication.
@@ -391,13 +420,19 @@ Set in Verona, Italy, the play centers on the secret romance between Romeo Monta
 
 The narrative demonstrates how unchecked hatred, rigid social structures, and lack of foresight can lead to irreversible tragedy. Shakespeare’s enduring work emphasizes the tension between individual passion and societal constraints, serving as both a cautionary tale and a timeless reflection on love and loss.
 ```
+<!-- prompt:end -->
 #### Business-report Style
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize Romeo and Juliet in a business-report style
 ```
+<!-- prompt:end -->
 **Result**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 # Executive Summary
 
@@ -467,15 +502,21 @@ Persistent inter-family conflict created barriers to collaboration and sustainab
 
 *Romeo and Juliet* demonstrates the high cost of unresolved stakeholder conflict and inadequate risk management. While reconciliation was achieved, the losses incurred outweighed the benefits. Future organizational strategies should prioritize communication, transparency, and structured mediation to avoid repeat outcomes.
 ```
+<!-- prompt:end -->
 
 #### Detailed Analysis
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Please make a detailed analysis of Romeo and Juliet
 ```
+<!-- prompt:end -->
 
 **Result:**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 ## 1. **Overview**
 
@@ -568,15 +609,21 @@ Please make a detailed analysis of Romeo and Juliet
 
 ✅ In essence, *Romeo and Juliet* is both a **deeply personal love story** and a **universal tragedy** about human conflict, passion, and the fragile line between love and death.
 ```
+<!-- prompt:end -->
 
 #### Comparative Study
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Please write a comparative study between Romeo and Juliet and The Lovers of Teruel.
 ```
+<!-- prompt:end -->
 
 **Result**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Here’s a structured comparative study between *Romeo and Juliet* by William Shakespeare and *The Lovers of Teruel* (*Los Amantes de Teruel*), a famous Spanish legend:
 
@@ -642,13 +689,19 @@ Here’s a structured comparative study between *Romeo and Juliet* by William Sh
 
 Both *Romeo and Juliet* and *The Lovers of Teruel* serve as cultural mirrors of their societies, articulating timeless concerns about love, honor, and fate. While Shakespeare emphasizes the destructive power of passion in a divided society, the Spanish legend underscores loyalty and the inexorability of time and social order. Together, they highlight how tragic love stories transcend borders, resonating universally across history and cultures.
 ```
+<!-- prompt:end -->
 #### Domain-specific interpretation
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Please write a summary of Romeo and Juliet as if it were a Tarantino movie
 ```
+<!-- prompt:end -->
 **Result:**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 **"Romeo & Juliet: A Tarantino Cut"**
 
@@ -664,18 +717,23 @@ The finale doesn’t play out with soft tragedy, but with Tarantino’s signatur
 
 The credits roll over a blood-smeared cityscape, leaving the audience wondering if love ever stood a chance—or if Verona was always just another Tarantino town where bullets speak louder than words.
 ```
-
+<!-- prompt:end -->
 
 ### Focus Areas
 
 #### Plot Analysis
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize Romeo and Juliet, focusing on plot analysis.
 ```
+<!-- prompt:end -->
 
 **Result**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 ### **Plot Overview**
 
@@ -722,15 +780,21 @@ The deaths of Romeo and Juliet finally reconcile the Montagues and Capulets, who
 * **Dramatic irony:** The audience is constantly aware of the characters’ misunderstandings (e.g., Juliet’s “death”), which intensifies the tragedy.
 * **Conflict:** The central external conflict is the feud between families, but the internal conflict lies in Romeo and Juliet’s struggle between love and social obligation.
 ```
+<!-- prompt:end -->
 
 #### Character Development
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize Romeo and Juliet, focusing on character development
 ```
+<!-- prompt:end -->
 
 **Result**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 ### Romeo
 
@@ -750,17 +814,21 @@ Juliet begins as obedient, sheltered, and hesitant about love—she tells her mo
 
 The tragedy lies in how both Romeo and Juliet evolve: love propels them into maturity and agency, but their passion outruns their judgment. Their development is compressed and intensified by the feud-driven world around them, and their final acts—suicide in devotion to one another—represent both their greatest independence and their ultimate downfall.
 ```
-
-
+<!-- prompt:end -->
 
 #### Thematic elements
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize Romeo and Juliet, focusing on thematic elements
 ```
+<!-- prompt:end -->
 
 **Result**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 **Romeo and Juliet** by William Shakespeare is a tragedy that explores the destructive power of love caught in a web of fate, family conflict, and youthful passion.
 
@@ -778,17 +846,21 @@ Summarize Romeo and Juliet, focusing on thematic elements
 
 In essence, the play dramatizes how love, though transcendent and transformative, can be overwhelmed by external forces of fate, violence, and societal constraint—turning passion into tragedy.
 ```
-
-
+<!-- prompt:end -->
 
 #### Technical Concepts
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Summarize Romeo and Juliet, focusing on technical concepts
 ```
+<!-- prompt:end -->
 
 **Result**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Got it! Let’s frame **Romeo and Juliet** through a **technical/analytical lens**, highlighting structure, mechanisms, and "system design" aspects of the play:
 
@@ -839,12 +911,16 @@ Got it! Let’s frame **Romeo and Juliet** through a **technical/analytical lens
 
 ⚙️ In short: *Romeo and Juliet* is essentially a **case study in failed system integration**, where poor communication protocols, untested contingency plans, and rigid legacy constraints lead to **catastrophic failure of both subsystems**, prompting a post-mortem redesign (peace between families).
 ```
+<!-- prompt:end -->
 
 Chat GPT follow-up question:
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Do you want me to **diagram this as a flowchart/system architecture** so it looks like an engineering spec?
 ```
+<!-- prompt:end -->
 **Result**
 
 System ran: 
@@ -906,7 +982,6 @@ Output
 
 ![romeo_juliet_system_failure_flowchart.png](./img/romeo_juliet_system_failure_flowchart.png)
 
-
 ### Structured Information Extraction
 
 Using the Technical Paper _[Attention is All You Need](https://arxiv.org/html/1706.03762v7)_ as source for summarization
@@ -915,6 +990,8 @@ Using the Technical Paper _[Attention is All You Need](https://arxiv.org/html/17
 
 ##### Prompt: 
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Please summarize the paper https://arxiv.org/html/1706.03762v7 focusing on: 
 Main ideas
@@ -922,9 +999,12 @@ Important dates
 Key people
 Interesting facts
 ```
+<!-- prompt:end -->
 
-##### Result:
+**Result**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Here’s a summary of the paper **“Attention Is All You Need” (Vaswani et al., 2017):**
 
@@ -970,17 +1050,23 @@ Here’s a summary of the paper **“Attention Is All You Need” (Vaswani et al
 * The architecture became the foundation of **BERT, GPT, T5, and modern LLMs**.
 * Often cited as one of the **most influential AI papers ever**, with over 100,000 citations.
 ```
+<!-- prompt:end -->
 
 ### Get specific information
 
 #### Timeline
 
 ##### Prompt
+<!-- prompt:start -->
+**Prompt**
 ```md
 Please give me a summary timeline of the Spanish Civil War.
 ```
-##### Result
+<!-- prompt:end -->
+**Result**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Here’s a **summary timeline of the Spanish Civil War (1936–1939):**
 
@@ -1030,17 +1116,23 @@ Here’s a **summary timeline of the Spanish Civil War (1936–1939):**
 * Hundreds of thousands flee into exile; tens of thousands executed or imprisoned.
 * Spain remains neutral in WWII but aligned ideologically with fascist regimes.
 ```
+<!-- prompt:end -->
 
 #### Bullet Points
 
 ##### Prompt
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Please give me a summary in bullet points of the causes of the Spanish Civil War.
 ```
+<!-- prompt:end -->
 
-#### Result
+**Result**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Here’s a clear bullet-point summary of the main causes of the Spanish Civil War (1936–1939):
 
@@ -1084,17 +1176,23 @@ Here’s a clear bullet-point summary of the main causes of the Spanish Civil Wa
   * Fascism (Italy, Germany) and communism (Soviet Union) influenced Spanish factions.
   * The conflict became part of the wider ideological struggle between right and left in Europe.
 ```
+<!-- prompt:end -->
 
 #### Question and Answer
 
 ##### Prompt
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Please give me a Q&A-style summary of the paper Attention Is All You Need, available at https://arxiv.org/html/1706.03762v7
 ```
+<!-- prompt:end -->
 
-##### Result
+**Result**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Here is a **Q&A-style summary** of *“Attention Is All You Need”* (Vaswani et al., 2017) ([arXiv][1])
 
@@ -1230,16 +1328,22 @@ They also argue that self-attention is more interpretable: attention weights can
 [1]: https://arxiv.org/html/1706.03762v7 "Attention Is All You Need"
 
 ```
+<!-- prompt:end -->
 
 #### Step-by-step Guide
 
 ##### Prompt
+<!-- prompt:start -->
+**Prompt**
 ```md
 Please give me a step-by-step, guide-style summary of the paper “Attention Is All You Need” at https://arxiv.org/html/1706.03762v7
 .
 ```
-##### Result
+<!-- prompt:end -->
+**Result**
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Here’s a practical, step-by-step, guide-style summary of **“Attention Is All You Need.”**
 
@@ -1298,20 +1402,23 @@ Here’s a practical, step-by-step, guide-style summary of **“Attention Is All
 [2]: https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf "Attention is All you Need"
 
 ```
+<!-- prompt:end -->
 
 ### Get specific information
 
-#### What are the three most important points?
+#### [Num] most important points
 
-##### Prompt
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 What are the three most important points in the paper at https://arxiv.org/html/1706.03762v7 ?
-``` 
+```
+<!-- prompt:end --> 
 
-#### Result
+**Result**
 
-<result>
+
 Here are **three of the most important contributions** / take-away points of *“Attention Is All You Need”* (Vaswani et al. 2017) ([arXiv][1])
 
 ---
@@ -1338,17 +1445,19 @@ The authors also show that the model generalizes beyond translation (e.g. consti
 
 ---
 [1]: https://arxiv.org/html/1706.03762v7 "Attention Is All You Need"
-</result>
 
 ### Prompt - What changed?
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 What changed between the pre-war period and the post–Spanish Civil War period?
 ```
+<!-- prompt:end -->
 
-#### Result
+**Result**
 
-<result>
+
 Could you clarify which context you’d like me to focus on?
 
 When people talk about differences **between the pre–Spanish Civil War period (before 1936)** and the **post–war Francoist period (after 1939)**, they might mean different spheres:
@@ -1379,15 +1488,18 @@ When people talk about differences **between the pre–Spanish Civil War period 
   * *Post-war:* Spain was isolated after WWII due to Franco’s fascist sympathies, only reintegrating into the international community in the 1950s.
 
 👉 In short: **Spain shifted from a fragile democratic republic experimenting with reform, to a centralized, authoritarian, Catholic, nationalist dictatorship under Franco.**
-</result>
 
 #### How does this affect everyday life?
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 How did the outcome of the Spanish Civil War affect everyday life?
 ```
+<!-- prompt:end -->
 
-<result>
+**Result**
+
 The outcome of the **Spanish Civil War (1936–1939)** — a victory for Franco’s Nationalists — radically reshaped everyday life in Spain. Here’s how it affected ordinary people across different aspects of daily living:
 
 ---
@@ -1433,17 +1545,19 @@ The outcome of the **Spanish Civil War (1936–1939)** — a victory for Franco�
 
 ✅ **In short:**
 Life after the war was marked by **fear, repression, hunger, and loss of freedoms.** Ordinary Spaniards lived under a heavily controlled, deeply Catholic, authoritarian society where political dissent, cultural diversity, and social progress were crushed. Only from the late 1950s onward did daily life begin to improve, with economic modernization and limited liberalization.
-</result>
 
 #### Follow-up Prompt
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Narrate this as if through the eyes of an ordinary family
 ```
+<!-- prompt:end -->
 
-#### Result
 
-<result>
+**Result**
+
 Alright — here’s a **narrative of everyday life after the Spanish Civil War**, told as if through the eyes of an ordinary Spanish family in the early 1940s:
 
 ---
@@ -1467,7 +1581,6 @@ At night, we gather around the fire, sharing what little we have. Father sometim
 ---
 
 👉 For this family, **everyday life is a mix of fear, hunger, and resignation, wrapped in silence and obedience.** Survival depends on keeping quiet, accepting the shortages, and finding small joys in family and faith.
-</result>
 
 ###  Structured Information Extraction
 
@@ -1477,8 +1590,10 @@ Useful for:
 - Complex narratives
 - Historical accounts
 
-#### Outline
+#### Outline Format
 
+<!-- prompt:start -->
+**Prompt**
 ```md
 Create a detailed outline of the following text, including:
 
@@ -1486,11 +1601,14 @@ Main topics and subtopics
 Key supporting points
 Chronological or logical relationships
 ```
+
 ```md
 [PASTE TEXT]
 ```
+<!-- prompt:end -->
 
 To test this prompt I used the following: 
+
 ```md
 Text: 
 
@@ -1527,11 +1645,10 @@ In his 2020 book, Dariusz Jemielniak noted that as most Google users do not real
 Bias
 The algorithm has been criticized for presenting biased or inaccurate information, usually because of sourcing information from websites with high search engine optimization. It had been noted in 2014 that while there was a Knowledge Graph for most major historical or pseudo-historical religious figures such as Moses, Muhammad and Gautama Buddha, there was none for Jesus, the central figure of Christianity.[21][22] On June 3, 2021, a knowledge box identified Kannada as the ugliest language in India, prompting outrage from the Kannada-language community; the state of Karnataka, where most Kannada speakers live, also threatened to sue Google for damaging the public image of the language. Google promptly changed the featured snippet for the search query and issued a formal apology.[23][24]
 ```
+<!-- prompt:end -->
 From _[Wikipedia](https://en.wikipedia.org/wiki/Knowledge_Graph_(Google))_, consulted on 2025-10-01
 
-#### Result:
-
-<result>
+**Result**
 
 ## I. Overview of Google Knowledge Graph
 
@@ -1635,4 +1752,3 @@ From _[Wikipedia](https://en.wikipedia.org/wiki/Knowledge_Graph_(Google))_, cons
 
   * Starts with **definition & growth** → moves to **history & expansion** → highlights **features** → concludes with **criticism and controversies**.
 
-</result>
