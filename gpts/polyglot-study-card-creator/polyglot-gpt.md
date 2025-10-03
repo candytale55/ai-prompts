@@ -87,7 +87,7 @@ Vocabulary: <word or phrase 2>
 
 ---
 
-## 📊 Schema (Always this order; use `||` as the only delimiter)
+## Schema (Always this order; use `||` as the only delimiter)
 
 ```
 
@@ -208,14 +208,6 @@ ID || image || pt_word || pt_word_art || pt_word_type || pt_definition || pt_exa
 - Articles in `*_word_art` follow the per-language rules.
 - POS labels use **local language** conventions.
 - No duplicates unless sense/POS differs.
-```
-
----
-
-if you want, i can now regenerate the **EN-only** and **PT-only conversation starters** to point at this master prompt (they stay short & human-readable, and the master prompt above carries all the rules).
-
-
-
 ```` 
 
 
