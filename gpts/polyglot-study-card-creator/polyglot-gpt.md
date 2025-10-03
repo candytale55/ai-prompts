@@ -245,6 +245,141 @@ Scope: PT-only
 List:
 ```
 
+Exactly ✅
+
+You can safely **replace your old Conversation Starters** with the new **EN-only** and **PT-only** ones.
+
+The **General Prompt** already contains the logic for what each scope fills vs. leaves blank, so the starters only need to:
+
+1. Pick the **Mode** (Cleanup | Extraction | Cards).
+2. Pick the **Scope** (EN-only or PT-only).
+
+That’s it — everything else is enforced automatically.
+
+So your new **Conversation Starters list** will just be:
+
+---
+
+### 📝 Cleanup
+
+* **English:** Clean up this raw English text and extract advanced vocabulary (Mode: Cleanup, Scope: EN-only).
+* **Portuguese:** Limpa este texto em português e extrai o vocabulário útil (Mode: Cleanup, Scope: PT-only).
+
+### 📖 Extraction
+
+* **English:** Extract advanced vocabulary words from this English text (Mode: Extraction, Scope: EN-only).
+* **Portuguese:** Extrai palavras de vocabulário deste texto em português (Mode: Extraction, Scope: PT-only).
+
+### 🗂 Cards
+
+* **English:** Build full Anki cards in English in TSV format (Mode: Cards, Scope: EN-only).
+* **Portuguese:** Gerar cartões completos de Anki em português em formato TSV (Mode: Cards, Scope: PT-only).
+
+---
+
+⚡ Tip: you don’t need to add the word “Mode” and “Scope” when you’re typing manually (the General Prompt allows you to just say “Make EN-only cards”), but putting them in the Conversation Starters keeps everything consistent and prevents drift.
+
+👉 Do you want me to also give you a **minimal “multilingual” starter set** (one for Cards, one for Extraction), so you already have them ready if you want to test cross-language later, but separated from your EN/PT workflow?
+
+Great question 👍
+
+That’s exactly what the **Scope rules** inside the **General Prompt** do for you.
+
+When you launch a conversation with a starter like:
+
+* **EN-only** → `"Build full Anki cards in English in TSV format (Mode: Cards, Scope: EN-only)."`
+* **PT-only** → `"Gerar cartões completos de Anki em português em formato TSV (Modo: Cards, Scope: PT-only)."`
+
+…the GPT sees both the **Mode** (what to do) and the **Scope** (which fields to fill).
+
+From the General Prompt:
+
+* **EN-only** → Fill only:
+
+  * `en_word`, `en_word_type`, `en_definition`, `en_example`, `Tags`
+  * Leave every other field blank.
+
+* **PT-only** → Fill:
+
+  * `pt_word`, `pt_word_art`, `pt_word_type`, `pt_definition`, `pt_example`, `en_word` (as anchor), `Tags`
+  * Leave the rest blank.
+
+So you don’t need to manually tell it what to blank each time — it’s baked into the rules. The assistant will check the schema and keep those unused fields **empty (not “""”)**.
+
+---
+
+👉 Final EN/PT-only conversation starters you need:
+
+* **English-only cards:**
+  *“Build full Anki cards in English in TSV format (Mode: Cards, Scope: EN-only).”*
+
+* **Portuguese-only cards:**
+  *“Gerar cartões completos de Anki em português em formato TSV (Modo: Cards, Scope: PT-only).”*
+
+* **English-only extraction:**
+  *“Extract advanced vocabulary words from this English text (Mode: Extraction, Scope: EN-only).”*
+
+* **Portuguese-only extraction:**
+  *“Extrai palavras de vocabulário deste texto em português (Modo: Extraction, Scope: PT-only).”*
+
+* **English cleanup:**
+  *“Clean up this raw English text and extract advanced vocabulary (Mode: Cleanup, Scope: EN-only).”*
+
+* **Portuguese cleanup:**
+  *“Limpa este texto em português e extrai o vocabulário útil (Modo: Cleanup, Scope: PT-only).”*
+
+---
+
+✨ That way, the scope itself controls which fields are filled and which remain blank — so no risk of confusion.
+
+Do you want me to make a **visual schema table** (showing EN-only vs PT-only, which columns are filled vs blank) for easier reference when you’re testing?
+
+Perfect — now that we have the **General Prompt locked in**, the Conversation Starters can stay short and human-readable, while the heavy logic lives in the Instructions.
+
+Here’s a clean set of starters you can drop into your GPT:
+
+---
+
+# ✅ Conversation Starters
+
+### 📝 Cleanup Mode
+
+* **English:** “Clean up this raw English text and extract advanced vocabulary (Mode: Cleanup, Scope: EN-only).”
+* **Portuguese:** “Limpa este texto em português e extrai o vocabulário útil (Modo: Cleanup, Scope: PT-only).”
+
+---
+
+### 📖 Extraction Mode
+
+* **English:** “Extract advanced vocabulary words from this English text (Mode: Extraction, Scope: EN-only).”
+* **Portuguese:** “Extrai palavras de vocabulário deste texto em português (Modo: Extraction, Scope: PT-only).”
+* **Multilingual:** “Extract vocabulary and give equivalents across languages (Mode: Extraction, Scope: Multilingual).”
+
+---
+
+### 🗂 Cards Mode (Anki-ready output)
+
+* **English-only cards:**
+  “Build full Anki cards in English in TSV format (Mode: Cards, Scope: EN-only).”
+* **Portuguese-only cards:**
+  “Gerar cartões completos de Anki em português em formato TSV (Modo: Cards, Scope: PT-only).”
+* **Multilingual cards:**
+  “Build full Anki multilingual cards in TSV format (Mode: Cards, Scope: Multilingual).”
+
+---
+
+⚡ How it works:
+
+* These short starters set **Mode + Scope** explicitly.
+* The **General Prompt** enforces formatting, cloze rules, taxonomy, article logic, etc.
+* You can still override by typing `Mode: … / Scope: …` manually in a custom request.
+
+---
+
+👉 Do you want me to also prepare a **few test-ready input+output examples** (EN-only + PT-only) so you can copy-paste and check immediately if the conversation starters + general prompt are aligned?
+
+
+
 
 # Previous Version
 
