@@ -2,6 +2,10 @@
 
 ## First Try
 
+### Date: 2025.10.05  - Tested in Codex (OpenAI)
+
+For basic HTML + CSS + JS projects. 
+
 ```md
 # agents.md
 
