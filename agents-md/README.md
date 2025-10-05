@@ -4,7 +4,14 @@
 
 ### Date: 2025.10.05  - Tested in Codex (OpenAI)
 
-For basic HTML + CSS + JS projects. 
+For basic HTML + CSS + JS projects.
+
+**Optional (if copy-pasted)**
+```md
+These are my development rules. Read and remember them for this session. 
+Follow them strictly when generating or editing code.
+
+```
 
 ```md
 # agents.md
