@@ -1,13 +1,13 @@
 # Generate README (for ChatGPT)
 
-Created: **2025-09-14**
+
+### 📅 Date Created: 2025-09-14
 
 Prompt to generate a concise, professional README.md
 
-Still __Testing__
+⚠️ **Untested**.
 
-
-- ChatGPT never gets the backticks right and always messes the format. This should be take care of the issue. 
+ChatGPT never gets the backticks right and always messes the format. This should be take care of the issue. 
 
 
 ## Prompt:

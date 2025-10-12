@@ -1,72 +1,15 @@
 # README Generator for CourseWork
 
-### Created: 2025.10.05
+### 📅 Created: 2025.10.05
 
-Guides the model to create a polished, reflective README.md summarizing work from an AI course. It rephrases provided materials to explain the course goals, projects, and key learnings in a clear, professional tone. The result is a concise, well-structured document suitable for personal or professional showcasing.
+Guides the model to create a polished, reflective README.md summarizing work from an AI course. 
 
+It rephrases provided materials to explain the course goals, projects, and key learnings in a clear, professional tone. The result is a concise, well-structured document suitable for personal or professional showcasing.
 
-### Model: ChatGPT-5
-
-
-## Optimized Prompts (to be tested)
+#### Model: ChatGPT-5
 
 
-### 🧠 Improved Version #1 (Structured and Practical)
-
-```md
-I need you to act as a **technical documentation writer**. Create a **README.md** for a parent folder containing my work from an **AI course**.
-
-You’ll receive:
-
-* RECAP points
-* A recap transcription of the course
-* A link to the course
-
-Your task:
-
-* Write a clear, engaging README that explains:
-
-  * What the course was about
-  * What projects were completed
-  * What I learned from them
-  * How this knowledge can be applied
-* Write naturally and professionally, keeping in mind that this could be showcased to others.
-* Rephrase the provided information — don’t copy it verbatim.
-* Use Markdown headings and short paragraphs.
-* Don’t include folder structures, TODOs, or excessive emojis (one or two at most).
-* The tone should be reflective and professional, as if summarizing your own learning experience.
-```
-```md
-[Add Information]
-```
-
----
-
-### Improved Version #2 (Concise but Strong)
-
-```md
-Act as a professional technical writer. Write a **README.md** for a folder containing my work from an **AI course**.
-
-I’ll provide:
-
-* Course recap points
-* Recap transcription
-* Link to the course
-
-Your README should:
-
-* Summarize what the course and projects covered
-* Explain what I learned and how this can be applied
-* Use rephrased content only — no direct copying
-* Follow Markdown formatting with clear sections
-* Exclude folder structures, TODOs, or multiple emojis
-* Sound polished and human-written, suitable for future reference or showcasing
-```
-```md
-[Add Information]
-```
-
-## ⚡️ **Optimized Prompt for GPT-4/5**
+## ⚡️ Optimized Prompt for GPT-4/5
 
 ```md
 Act as a **professional technical writer** specializing in clear, engaging documentation.
@@ -139,6 +82,68 @@ A strong README will:
 ```md
 [Add Information]
 ```
+
+## Optimized Prompts 
+
+⚠️ **Untested**
+
+
+### 🧠 Improved Version #1 (Structured and Practical)
+
+```md
+I need you to act as a **technical documentation writer**. Create a **README.md** for a parent folder containing my work from an **AI course**.
+
+You’ll receive:
+
+* RECAP points
+* A recap transcription of the course
+* A link to the course
+
+Your task:
+
+* Write a clear, engaging README that explains:
+
+  * What the course was about
+  * What projects were completed
+  * What I learned from them
+  * How this knowledge can be applied
+* Write naturally and professionally, keeping in mind that this could be showcased to others.
+* Rephrase the provided information — don’t copy it verbatim.
+* Use Markdown headings and short paragraphs.
+* Don’t include folder structures, TODOs, or excessive emojis (one or two at most).
+* The tone should be reflective and professional, as if summarizing your own learning experience.
+```
+```md
+[Add Information]
+```
+
+---
+
+### Improved Version #2 (Concise but Strong)
+
+```md
+Act as a professional technical writer. Write a **README.md** for a folder containing my work from an **AI course**.
+
+I’ll provide:
+
+* Course recap points
+* Recap transcription
+* Link to the course
+
+Your README should:
+
+* Summarize what the course and projects covered
+* Explain what I learned and how this can be applied
+* Use rephrased content only — no direct copying
+* Follow Markdown formatting with clear sections
+* Exclude folder structures, TODOs, or multiple emojis
+* Sound polished and human-written, suitable for future reference or showcasing
+```
+```md
+[Add Information]
+```
+
+
 
 ## Initial Prompt (unrefined)
 
