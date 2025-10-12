@@ -34,7 +34,9 @@ Following examples in article [Text Summarization](https://learnprompting.org/do
 
 ## Prompts and Tests
 
-### Model: Chat-GPT 5 - Date: 2025.09.30
+### 📅Date: 2025.09.30
+#### Model: Chat-GPT 5 
+
 
 ## Simple Summary
 
